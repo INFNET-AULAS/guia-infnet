@@ -71,4 +71,4 @@ jobs:
             guia-deployment.yaml
           images: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-          namespace: default 
+          namespace: default  
